@@ -1,0 +1,97 @@
+         @media (max-width: 767px) {
+             body {
+                 margin: 0;
+             }
+             #navbar .nav-image {
+                 display: none;
+             }
+             #navbar .container {
+                 display: block;
+             }
+             #navbar a {
+                 border: none;
+                 width: max-content;
+                 padding: 17px;
+             }
+             .job {
+                 width: 93%;
+             }
+             #login-btn {
+                 width: 29%;
+             }
+             #banner img {
+                 margin: 6px 9px 4px -29px;
+             }
+             #project h3 {
+                 margin: 30px 10px 34px -10px;
+             }
+             .project-cell {
+                 margin: 10px 10px 10px -6px;
+             }
+             #about .info-email {
+                 width: auto;
+                 font-size: 16px;
+                 margin-left: 2px;
+                 margin-bottom: 20px;
+             }
+             #about .info-container {
+                 padding-left: 0;
+             }
+             h1 {
+                 font-size: 24px;
+             }
+             #about .icon {
+                 margin-left: 0;
+             }
+             #banner div {
+                 font-size: 83%;
+                 width: max-content;
+             }
+             #certificate .cert-cell {
+                 border-left: none;
+                 display: block;
+                 margin-left: 13px;
+             }
+             #certificate img {
+                 width: 93%;
+                 height: auto;
+             }
+             #certificate .section-title {
+                 padding-left: 7px;
+                 font-size: 29px;
+             }
+             .two-columns-section {
+                 display: grid;
+                 grid-template-columns: 73px 1fr;
+             }
+             .right-border-cell::before {
+                 background-color: #F7F7F7;
+             }
+             #certificate .right-border-cell {
+                 border-top: 1px solid #d6c08d;
+                 padding-top: 11px;
+             }
+             .funix-icon {
+                 display: grid;
+                 grid-template-columns: 1fr;
+                 margin-top: -9px;
+                 margin-bottom: 10px;
+             }
+             .year {
+                 width: 59px;
+             }
+             .project-cell-title-skill {
+                 display: block;
+             }
+             #footer ul {
+                 display: flex;
+                 justify-content: center;
+                 list-style: none;
+                 gap: 4px;
+                 margin: 10px 10px 10px -65px;
+             }
+             #footer i {
+                 color: #199CDB;
+                 font-size: 35px;
+             }
+         }

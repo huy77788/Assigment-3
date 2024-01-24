@@ -1,0 +1,401 @@
+        * {
+            margin: 0;
+        }
+        
+        body {
+            margin: 0 110px;
+        }
+        
+        .bg-grey {
+            background: #f7f7f7;
+        }
+        
+        .section-info {
+            font-size: 36px;
+            padding-bottom: 32px;
+            margin-left: -4px;
+        }
+        
+        .day {
+            color: gray;
+        }
+        
+        .job {
+            border: 1px solid #f0f0f0;
+            color: #686868;
+            width: 100%;
+            padding: 20px;
+            min-height: 150px;
+            margin-bottom: 20px;
+        }
+        
+        #banner {
+            position: relative;
+            filter: brightness(50%);
+        }
+        
+        #banner img {
+            object-fit: none;
+            height: 500px;
+            margin: 6px 11px 0px -13px;
+            width: 102%;
+        }
+        
+        #banner div {
+            position: absolute;
+            text-align: center;
+            top: 35%;
+            left: 50%;
+            color: #FFFFFF;
+            transform: translate(-50%, -35%);
+        }
+        
+        .section-job {
+            font-size: 35px;
+        }
+        
+        .section-title {
+            margin-left: -2px;
+            font-size: 33px;
+            grid-column: 1 / -1;
+            padding-bottom: 32px;
+            padding-top: 10px;
+        }
+        
+        #navbar i {
+            color: #199cdb;
+        }
+        
+        .nav-image {
+            position: relative;
+            width: 120px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .info-container i {
+            color: #199CDB;
+        }
+        
+        .container .info-container {
+            width: 100%;
+        }
+        
+        #navbar {
+            text-align: center;
+        }
+        
+        #navbar .navbar-background {
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+        
+        .info {
+            list-style: none;
+            padding-left: 81px;
+        }
+        
+        .skill-title {
+            font-size: 19px;
+        }
+        
+        .icon {
+            color: #199CDB;
+            display: none;
+            margin-left: 70px;
+            margin-top: -8px;
+            margin-bottom: 18px;
+        }
+        
+        .information {
+            list-style: none;
+            padding-left: 19px;
+        }
+        
+        #navbar a {
+            padding: 21px 73px;
+            margin-bottom: -10px;
+            color: black;
+            text-transform: uppercase;
+            border: 1px solid #EDEDED;
+        }
+        
+        #navbar i {
+            color: #199cdb;
+        }
+        
+        .nav-image {
+            position: relative;
+            width: 7%;
+            display: flex;
+            align-items: center;
+        }
+        
+        h1 {
+            font-size: 33px;
+            padding-bottom: 10px;
+            padding-top: 11px;
+        }
+        
+        .nav-image img {
+            height: 86px;
+            width: 90px;
+            border-radius: 50%;
+            transform: scale(1.5);
+            position: absolute;
+            border: 8px solid white;
+        }
+        
+        .title {
+            display: flex;
+            justify-content: space-between;
+            font-size: 38px;
+            width: 93%;
+        }
+        
+        #job-info h1 {
+            font-size: 28px;
+            align-self: end;
+            margin-left: -1px;
+        }
+        
+        .job li::marker {
+            font-size: 21px;
+            color: #199cdb;
+        }
+        
+        .job-info-cell-text {
+            padding-left: 10px;
+            width: auto;
+            max-width: 100%;
+            min-height: 200px;
+        }
+        
+        .job-info-year p {
+            display: inline-block;
+            padding-left: 20px;
+        }
+        
+        .job-info-year {
+            margin-left: 1px;
+        }
+        
+        #present {
+            width: 72px;
+            height: 28px;
+            margin-top: -47px;
+            margin-left: 78px;
+            text-align: center;
+            padding-left: 3px;
+            background-color: #199cdb;
+            border-radius: 9px;
+            color: #EDEDED;
+        }
+        
+        #project h3 {
+            margin-left: -23px;
+            margin-bottom: 28px;
+            font-size: 34px;
+        }
+        
+        .info-container {
+            list-style: none;
+            display: none;
+            padding-left: 65px;
+        }
+        
+        p,
+        span {
+            line-height: 2;
+            font-size: 15px;
+        }
+        
+        .four-columns {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            justify-items: center;
+            margin-top: 25px;
+        }
+        
+        .hidden {
+            display: none;
+        }
+        
+        .four-columns i {
+            border-radius: 50%;
+            color: #9DD5EF;
+            border: 2px solid #9DD5EF;
+            width: 58px;
+            height: 36px;
+            font-size: 22px;
+            padding-top: 5px;
+            text-align: center;
+            margin-left: -36px;
+        }
+        
+        .score-bar {
+            background-color: #56B6E5;
+            display: inline-block;
+            height: 3px;
+            width: 48px;
+        }
+        
+        .project-cell-title-skill i {
+            padding-top: 4px;
+        }
+        
+        .funix-icon {
+            margin-top: 4px;
+        }
+        
+        .text {
+            display: flex;
+            gap: 32px;
+            margin-left: -3px;
+        }
+        
+        ul {
+            margin-left: -10px;
+            font-size: 16px;
+            color: #777777;
+        }
+        
+        #certificate img {
+            height: 100px;
+        }
+        
+        .cert-cell {
+            display: flex;
+            gap: 15px;
+            padding-top: 14px;
+        }
+        
+        .two-columns-section {
+            display: grid;
+            grid-template-columns: 91px 1fr;
+        }
+        
+        .cert-desc {
+            color: gray;
+            font-size: 14px;
+        }
+        
+        .right-border-cell {
+            position: relative;
+            padding-left: 7px;
+        }
+        
+        .right-border-cell::before {
+            content: '';
+            position: absolute;
+            left: -4px;
+            height: 78%;
+            width: 1px;
+            background-color: #d6c08d;
+        }
+        
+        #project img {
+            height: 200px;
+            width: 100%;
+        }
+        
+        .year {
+            gap: 20px;
+            color: #E8EFF4;
+            border-radius: 50px;
+            background-color: #199CDB;
+            width: 54px;
+            height: 30px;
+            padding-left: 11px;
+        }
+        
+        .project-cell-title {
+            padding-left: 13px;
+            padding-bottom: 0px;
+        }
+        
+        .project-cell-title-skill {
+            display: flex;
+            padding-left: 14px;
+            gap: 20px;
+            border-top: 1px solid gainsboro;
+            padding-top: 11px;
+            color: gray;
+        }
+        
+        .project-cell {
+            border: 1px solid gainsboro;
+            width: 100%;
+            margin: 12px 10px 10px -22px;
+        }
+        
+        .project-text p {
+            border-top: 1px solid gainsboro;
+            padding: 2px 2px 6px 6px;
+            color: gray;
+            font-size: 15px;
+        }
+        
+        #project {
+            margin: 30px;
+        }
+        
+        #footer {
+            width: 100%;
+        }
+        
+        #footer ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            gap: 24px;
+            margin: 10px 10px 10px -125px;
+        }
+        
+        #footer i {
+            color: #199cdb;
+            font-size: 33px;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #777777cd;
+            display: flex;
+            align-items: center;
+            font-size: 19px;
+        }
+        
+        .day-date {
+            font-style: italic;
+        }
+        
+        #job-info .container .view-more .view-more-btn {
+            width: 140px;
+            height: 30px;
+            color: white;
+            background-color: #199cdb;
+            border: 0;
+            font-size: 15px;
+            border-radius: 30px;
+        }
+        
+        #login-btn {
+            border-radius: 5px;
+            background-color: #199cdb;
+            color: white;
+            width: 19%;
+        }
+        
+        #footer .contact-info {
+            margin: 20px 0 20px -543px;
+        }
+        
+        .info-email {
+            margin-left: 100px;
+        }
+        
+        #job-info .container .exp .view-more .view-more-btn:hover {
+            cursor: pointer;
+        }

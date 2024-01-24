@@ -1,0 +1,61 @@
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    #wrap {
+        width: 100%;
+        display: block;
+    }
+    #goals {
+        margin-right: 20px;
+        padding-bottom: 34px;
+    }
+    #scopes {
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    #primary {
+        margin-right: 20px;
+        padding-bottom: 20px;
+    }
+    #myteam {
+        margin-right: 20px;
+        margin-top: 26px;
+        padding-bottom: 30px;
+    }
+    #timeline {
+        padding-bottom: 46px;
+    }
+    .goals-info {
+        display: block;
+    }
+    .goals-info i {
+        display: flex;
+        justify-content: center;
+    }
+    .team {
+        display: block;
+        margin-top: 51px;
+    }
+    .team i {
+        display: flex;
+        justify-content: center;
+    }
+    .scopes-info {
+        display: block;
+    }
+    #primary .primary-info {
+        display: block;
+        margin-top: 18px;
+    }
+    .primary-info i {
+        display: flex;
+        justify-content: center;
+    }
+    .timeline-number {
+        display: block;
+    }
+    span {
+        display: block;
+    }
+    .timeline-text {
+        width: 98%;
+    }
+}

@@ -1,0 +1,160 @@
+            @media screen and (min-width: 768px) and (max-width: 1024px) {
+                #navbar .nav-image {
+                    display: none;
+                }
+                #navbar a {
+                    font-size: 14px;
+                    padding: 15px 15px 18px 17px;
+                    margin-bottom: -10px;
+                }
+                #login-btn {
+                    width: 36%;
+                }
+                #banner img {
+                    width: 103%;
+                    margin: 5px 10px 0px -10px;
+                }
+                #job-info .job-information {
+                    width: 90%;
+                }
+                .job {
+                    padding: 20px;
+                }
+                .text {
+                    gap: 7px;
+                    margin-left: -22px;
+                }
+                .four-columns {
+                    gap: 17px;
+                    margin-top: 35px;
+                }
+                .four-columns i {
+                    width: 50px;
+                }
+                .two-columns-section {
+                    display: grid;
+                    grid-template-columns: 60px 1fr;
+                }
+                #banner div {
+                    left: 50%;
+                    width: max-content;
+                }
+                #banner {
+                    width: auto;
+                    max-width: 100%;
+                }
+                #banner .container {
+                    width: 100%;
+                }
+                #about .info-container {
+                    margin-left: -149px;
+                }
+                #about .icon {
+                    margin-left: -78px;
+                }
+                #banner .banner-text {
+                    top: 28%;
+                    width: 100%;
+                }
+                #job-info .job-info-cell-icon {
+                    margin-left: 177px;
+                    font-size: 40px;
+                }
+                #job-info .skill-title {
+                    font-size: 28px;
+                }
+                #target,
+                #personal-info {
+                    padding: 0px 20px 20px 30px;
+                }
+                .year {
+                    width: 51px;
+                    padding-left: 7px;
+                }
+                h3 {
+                    font-size: 17px;
+                }
+                #certificate .cert-cell {
+                    display: block;
+                    /* padding-left: 32px;
+            width: 129%; */
+                }
+                #certificate img {
+                    width: 93%;
+                    height: auto;
+                }
+                #certificate .section-title {
+                    padding-left: 2px;
+                    font-size: 33px;
+                }
+                #project .section-title {
+                    width: auto;
+                    max-width: 100%;
+                    padding-left: 131px;
+                }
+                #project .project-cell {
+                    width: 100%;
+                }
+                #project #project h3 {
+                    margin-left: 18px;
+                }
+                #project {
+                    margin: 10px -110px 10px 14px;
+                }
+                .project-cell-title-skill {
+                    gap: 22px;
+                }
+                .funix-icon {
+                    display: grid;
+                    grid-template-columns: 100px;
+                    margin-top: -2px;
+                    margin-left: -13px;
+                }
+                #about .section-info {
+                    width: 342px;
+                    margin: 3px 20px 20px -6px;
+                    font-size: 25px;
+                }
+                .section-about {
+                    margin-left: -10px;
+                }
+                #about .section-title {
+                    margin-left: -132px;
+                }
+                #about .about-info {
+                    padding-left: 151px;
+                }
+                #about .info-email {
+                    font-size: 15px;
+                    margin-left: -64px;
+                }
+                #about h1 {
+                    font-size: 26px;
+                }
+                #about .day {
+                    font-size: 16px;
+                    margin-left: -165px;
+                    padding-right: 49px;
+                }
+                #about .section-job {
+                    font-size: 25px;
+                    margin-left: -169px;
+                }
+                .right-border-cell::before {
+                    left: -12px;
+                    height: 98%;
+                }
+                #footer a {
+                    font-size: 23px;
+                }
+                #footer .contact-info {
+                    width: 100%;
+                    margin: 20px 20px 20px -199px;
+                }
+                #footer ul {
+                    padding: 10px 10px 10px 105px;
+                }
+                #certificate .cert-desc {
+                    font-size: 16px;
+                }
+            }
